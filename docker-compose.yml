@@ -5,7 +5,7 @@ services:
     container_name: nvless
     restart: always
     ports:
-      - 443:3000
+      - 3000:3000
     environment:
       - UUID=bdfab052-19ea-4714-a60f-7d6be6f79d39
       - WSPATH=/nvless
