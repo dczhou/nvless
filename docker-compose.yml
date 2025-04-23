@@ -1,11 +1,11 @@
 version: '3'
 services:
   nvless:
-    image: ghcr.io/banknight/nvless
+    image: ghcr.io/dczhou/nvless
     container_name: nvless
     restart: always
     ports:
-      - 3000:3000
+      - 443:3000
     environment:
-      - UUID=13170fcc-1966-507d-bce9-532cc588fcf3
+      - UUID=bdfab052-19ea-4714-a60f-7d6be6f79d39
       - WSPATH=/nvless
