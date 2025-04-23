@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE: BanKnight/nvless
+  IMAGE: dczhou/nvless
 
 jobs:
   build-and-push:
